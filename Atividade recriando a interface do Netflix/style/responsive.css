@@ -1,0 +1,21 @@
+/* deixando a tela responsiva usando a @media*/
+/* ate 700px aplique essa formatação*/
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+/* no minimo 1000px aplique essa formatação*/
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
